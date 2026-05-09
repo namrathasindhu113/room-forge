@@ -19,6 +19,7 @@ A modern, full-stack web application for room and space management, built with c
 - [Building for Production](#building-for-production)
 - [Contributing](#contributing)
 - [License](#license)
+- [About](#about)
 
 ## 🎯 Overview
 
@@ -222,6 +223,14 @@ For issues, questions, or suggestions, please:
 - Open an issue on [GitHub Issues](https://github.com/Namrathasindhu113/Room-forge/issues)
 - Check existing documentation and closed issues
 - Contact the maintainer
+
+## 👤 About
+
+**Author:** [Namrathasindhu113](https://github.com/Namrathasindhu113)  
+**Role:** Full Stack Developer  
+**Project:** Room Forge - Space & Room Management System
+
+This project is maintained and actively developed by Namratha Sindhu M. For more information about the author or to collaborate, feel free to reach out through GitHub.
 
 ---
 
