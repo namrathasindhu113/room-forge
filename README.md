@@ -226,9 +226,8 @@ For issues, questions, or suggestions, please:
 
 ## 👤 About
 
-**Author:** [Namrathasindhu113](https://github.com/Namrathasindhu113)  
+**Author:** Namratha Sindhu M
 **Role:** Full Stack Developer  
-**Project:** Room Forge - Space & Room Management System
 
 This project is maintained and actively developed by Namratha Sindhu M. For more information about the author or to collaborate, feel free to reach out through GitHub.
 
