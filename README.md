@@ -1,6 +1,6 @@
-# Room Forge
+# 🎮 Room Forge
 
-A modern, full-stack web application for room and space management, built with cutting-edge technologies and cloud-native architecture.
+An innovative full-stack web application for **creating and managing virtual escape rooms**. Room Forge empowers creators to design immersive, interactive escape room experiences without coding, leveraging cutting-edge technologies and cloud-native architecture.
 
 **Live Demo:** [room-forge.vercel.app](https://room-forge.vercel.app)
 
@@ -23,20 +23,23 @@ A modern, full-stack web application for room and space management, built with c
 
 ## 🎯 Overview
 
-Room Forge is a comprehensive solution for managing room bookings and space allocation. It leverages modern web technologies including Next.js 15, React 18, Firebase, and Google's Genkit AI framework to provide an intuitive and powerful user experience.
+Room Forge is a comprehensive platform for building and managing virtual escape rooms. Whether you're an experienced game designer or a creative beginner, Room Forge provides intuitive tools to craft engaging puzzle-filled experiences.
 
-The application features a robust component library built with Radix UI, type-safe form handling with React Hook Form and Zod validation, and responsive data visualization powered by Recharts.
+The application is built with modern web technologies including Next.js 15, React 18, Firebase, and Google's Genkit AI framework. It features a robust component library, type-safe form handling, and intelligent AI-powered features to assist in room creation and puzzle design.
 
 ## ✨ Features
 
-- **User-Friendly Interface**: Built with Radix UI components for accessibility and consistency
-- **Real-Time Database**: Firebase integration for seamless data synchronization
-- **Form Validation**: Robust form handling with React Hook Form and Zod schema validation
-- **AI-Powered Insights**: Genkit AI integration for intelligent recommendations
-- **Data Visualization**: Interactive charts and analytics with Recharts
-- **Type Safety**: Full TypeScript support for enhanced development experience
-- **Responsive Design**: Mobile-first approach with Tailwind CSS
-- **Authentication**: Secure Firebase authentication
+- **🎨 Drag-and-Drop Room Builder**: Intuitive visual editor for designing escape room layouts
+- **🧩 Puzzle Creation Tools**: Build interactive puzzles, riddles, and challenges
+- **💾 Real-Time Database**: Firebase integration for seamless data synchronization and persistent storage
+- **🤖 AI-Powered Assistance**: Genkit AI integration for intelligent puzzle suggestions and room optimization
+- **👥 User-Friendly Interface**: Built with Radix UI components for accessibility and consistency
+- **📊 Room Analytics**: Track player progress, completion times, and room statistics
+- **🔐 Secure Authentication**: Firebase authentication for creators and players
+- **📱 Responsive Design**: Mobile-first approach with Tailwind CSS for all devices
+- **🎯 Form Validation**: Robust form handling with React Hook Form and Zod schema validation
+- **📈 Data Visualization**: Interactive charts and analytics with Recharts
+- **🔒 Type Safety**: Full TypeScript support for enhanced development experience
 
 ## 🛠️ Tech Stack
 
@@ -47,12 +50,13 @@ The application features a robust component library built with Radix UI, type-sa
 | **Language** | TypeScript |
 | **Styling** | Tailwind CSS |
 | **UI Components** | Radix UI |
-| **Database** | Firebase |
+| **Database** | Firebase Firestore |
 | **Authentication** | Firebase Auth |
 | **Forms** | React Hook Form + Zod |
 | **AI/ML** | Google Genkit |
 | **Charts** | Recharts |
 | **Package Manager** | npm |
+| **Deployment** | Vercel |
 
 ## 📋 Prerequisites
 
@@ -121,9 +125,12 @@ npm run typecheck
 src/
 ├── app/                    # Next.js app directory
 │   └── page.tsx           # Main entry point
-├── ai/                    # AI/Genkit integration
+├── ai/                    # AI/Genkit integration for puzzle suggestions
 │   └── dev.ts             # Development AI configuration
 ├── components/            # Reusable React components
+│   ├── RoomBuilder/       # Room building components
+│   ├── PuzzleCreator/     # Puzzle creation tools
+│   └── ...
 ├── lib/                   # Utility functions and helpers
 └── styles/                # Global styles
 
@@ -151,13 +158,15 @@ tsconfig.json             # TypeScript configuration
 
 1. Create a Firebase project at [firebase.google.com](https://firebase.google.com)
 2. Enable Firestore Database and Authentication
-3. Add your credentials to `.env.local`
+3. Set up Firestore rules for secure access
+4. Add your credentials to `.env.local`
 
 ### Genkit AI Setup
 
 1. Enable the Genkit API in your Google Cloud project
 2. Create appropriate service credentials
-3. Add your API key to `.env.local`
+3. Configure AI models for puzzle generation
+4. Add your API key to `.env.local`
 
 ## 💻 Development
 
@@ -178,7 +187,7 @@ npm run typecheck
 
 ### Development with AI Features
 
-To develop with Genkit AI features:
+To develop with Genkit AI features for puzzle suggestion:
 
 ```bash
 npm run genkit:watch
@@ -226,10 +235,10 @@ For issues, questions, or suggestions, please:
 
 ## 👤 About
 
-**Author:** Namratha Sindhu M
+**Author:** Namratha Sindhu M  
 **Role:** Full Stack Developer  
 
-This project is maintained and actively developed by Namratha Sindhu M. For more information about the author or to collaborate, feel free to reach out through GitHub.
+Room Forge is a passion project created to democratize virtual escape room creation. This project is maintained and actively developed by Namratha Sindhu M. For more information about the author or to collaborate, feel free to reach out through GitHub.
 
 ---
 
