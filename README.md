@@ -1,13 +1,26 @@
-````md
+<div align="center">
+
 # Room Forge
 
-A modern full-stack web platform for creating and managing virtual escape room experiences. Room Forge enables creators to design interactive puzzle-based environments with AI-assisted workflows, real-time cloud integration, and scalable architecture.
+### AI-Powered Virtual Escape Room Creation Platform
+
+A modern full-stack platform for building and managing immersive virtual escape room experiences with AI-assisted workflows and scalable cloud infrastructure.
+
+</div>
 
 ---
 
 ## Live Demo
 
-https://room-forge.vercel.app
+🌐 https://room-forge.vercel.app
+
+---
+
+## Overview
+
+Room Forge is a modern web platform that enables creators to design, manage, and deploy interactive virtual escape room experiences. The application combines AI-powered assistance, real-time cloud integration, and intuitive user interfaces to simplify game creation without requiring advanced technical expertise.
+
+Built using scalable full-stack technologies, Room Forge focuses on performance, usability, and extensibility for modern interactive entertainment platforms.
 
 ---
 
@@ -17,10 +30,10 @@ https://room-forge.vercel.app
 - Interactive puzzle creation tools
 - AI-powered puzzle suggestions
 - Real-time Firebase database integration
-- Secure user authentication
-- Responsive modern UI
+- Secure authentication system
+- Responsive and modern user interface
 - Analytics and player tracking
-- Type-safe development using TypeScript
+- Type-safe architecture using TypeScript
 - Cloud deployment with Vercel
 
 ---
@@ -28,17 +41,17 @@ https://room-forge.vercel.app
 ## Tech Stack
 
 | Category | Technology |
-|----------|-------------|
+|---|---|
 | Framework | Next.js 15 |
-| Language | TypeScript |
 | Frontend | React 18 |
+| Language | TypeScript |
 | Styling | Tailwind CSS |
 | UI Components | Radix UI |
 | Database | Firebase Firestore |
 | Authentication | Firebase Auth |
 | AI Integration | Google Genkit |
-| Forms | React Hook Form + Zod |
-| Charts | Recharts |
+| Forms & Validation | React Hook Form + Zod |
+| Data Visualization | Recharts |
 | Deployment | Vercel |
 
 ---
@@ -51,7 +64,7 @@ https://room-forge.vercel.app
 git clone https://github.com/Namrathasindhu113/Room-forge.git
 
 cd Room-forge
-````
+```
 
 ### Install Dependencies
 
@@ -59,9 +72,11 @@ cd Room-forge
 npm install
 ```
 
-### Configure Environment Variables
+---
 
-Create a `.env.local` file in the root directory.
+## Environment Variables
+
+Create a `.env.local` file in the project root directory.
 
 ```env
 NEXT_PUBLIC_FIREBASE_API_KEY=
@@ -81,7 +96,7 @@ GENKIT_API_KEY=
 
 ---
 
-## Running the Project
+## Running the Application
 
 ### Development Server
 
@@ -89,7 +104,7 @@ GENKIT_API_KEY=
 npm run dev
 ```
 
-Application runs at:
+The application will run at:
 
 ```bash
 http://localhost:9002
@@ -99,15 +114,15 @@ http://localhost:9002
 
 ## Available Scripts
 
-| Command              | Description                  |
-| -------------------- | ---------------------------- |
-| npm run dev          | Start development server     |
-| npm run build        | Build production application |
-| npm start            | Start production server      |
-| npm run lint         | Run ESLint                   |
-| npm run typecheck    | TypeScript validation        |
-| npm run genkit:dev   | Start AI development server  |
-| npm run genkit:watch | Start AI watch mode          |
+| Command | Description |
+|---|---|
+| `npm run dev` | Start development server |
+| `npm run build` | Build production application |
+| `npm start` | Start production server |
+| `npm run lint` | Run ESLint |
+| `npm run typecheck` | Validate TypeScript |
+| `npm run genkit:dev` | Start AI development server |
+| `npm run genkit:watch` | Start AI watch mode |
 
 ---
 
@@ -143,8 +158,8 @@ npm start
 Contributions are welcome.
 
 1. Fork the repository
-2. Create a feature branch
-3. Commit changes
+2. Create a new feature branch
+3. Commit your changes
 4. Push the branch
 5. Open a Pull Request
 
@@ -158,14 +173,16 @@ This project is licensed under the MIT License.
 
 ## Author
 
-Namratha Sindhu M
-AI and Full Stack Developer
+### Namratha Sindhu M
+
+Information Science Engineering Student  
+Full Stack & AI Developer
+
+GitHub:  
+https://github.com/Namrathasindhu113
 
 ---
 
 ## Project Vision
 
-Room Forge is designed to simplify virtual escape room creation through modern web technologies, scalable infrastructure, and AI-assisted game design workflows.
-
-```
-```
+Room Forge aims to simplify virtual escape room creation through AI-assisted game design, scalable cloud technologies, and intuitive user experiences for creators worldwide.
